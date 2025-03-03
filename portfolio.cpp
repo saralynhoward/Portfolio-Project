@@ -4,6 +4,7 @@
 #include <string>
 #include <chrono>
 
+/* This program uses concurrency to count up from 1 to 20 by one in a thread, while counting down from 20 to 1 by one in another thread */
 std::mutex mtx;
 
 void countUp() {
